@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body class="bg-[url(images/cafe.jpeg)] bg-no-repeat bg-cover bg-center w-full h-[550px]">
+    <header>
+        <nav class="bg-black/30 items-center fixed top-0 left-0 w-full z-50">
+            <div class="max-w-7xl mx-auto flex flex-nowrap justify-between items-center">
+                <div class="w-[130px] md:w-[180px] lg:w-[200px] p-2 ">
+                    <img src="images/logo-2-removebg-preview.png" alt="">
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex flex-nowrap justify-center gap-4 lg:gap-10 text-white text-sm lg:text-lg">
+                        <li class="hover:text-yellow-600"><a href="index.html">Home</a></li>
+                        <li class="hover:text-yellow-600"><a href="service.html">Services</a></li>
+                        <li class="hover:text-yellow-600"><a href="#">About Us</a></li>
+                        <li class="hover:text-yellow-600"><a href="#">Blog</a></li>
+                        <li class="hover:text-yellow-600"><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="flex items-center gap-5 p-3 mr-7">
+
+                    <button
+                        class="border border-yellow-600 hover:bg-yellow-600 text-white rounded-sm  text-white font-bold p-3 hover:cursor-pointer text-xs sm:text-sm md:text-base hidden md:block">
+                        <i class="fa-regular fa-calendar"></i> BOOK NOW</button>
+                    <div class=" border border-yellow-600 hover:bg-yellow-600 md:hidden rounded-sm ">
+                        <select name="" id="" onchange="location = this.value;">
+                            <option value="index.html">Home</option>
+                            <option value="service.html">Service</option>
+                            <option value="service.html">Service</option>
+                            <option value="service.html">Service</option>
+                            <option value="service.html">Service</option>
+                        </select>
+                    </div>
+                </div>
+        </nav>
+        <nav class="w-full p-3 sm:p-7  mx-auto text-center">
+            <div class="  w-full sm:text-center md:text-center lg:text-start md:my-15 ">
+                <h1
+                    class="p-4 text-xl sm:text-2xl md:text-3xl mx-2 md:mx-10 font-bold text-yellow-500 whitespace-nowrap">
+                    Welcome to__________________
+                </h1>
+                <h1 class="text-4xl sm:text-4xl md:text-6xl lg:text-8xl font-bold mx-2 md:mx-10 text-white">Good Coffee
+                    <br>
+                    <h2 class="text-4xl sm:text-4xl md:text-6xl lg:text-8xl font-bold mx-2 md:mx-10 text-white">Good
+                        Mood</h2>
+                </h1>
+                <p class="mx-2 md:mx-10 text-base sm:text-xl md:text-3xl text-white my-3">Start Your Day with the<br>
+                    perfect cup of coffee</p>
+                <button
+                    class="bg-yellow-500 px-5 py-3 rounded-full mx-4 md:mx-8 font-bold text-white my-3 text-sm sm:text-base">
+                    Book Now → </button>
+                <button
+                    class="bg-black/40 px-5 py-3 rounded-full font-bold text-white my-3 hover:cursor-pointer hover:bg-white hover:text-black text-sm sm:text-base transition duration-300">
+                    <i class="fa-regular fa-circle-play"></i> Watch Video </button>
+
+            </div>
+        </nav>
+
+    </header>
+    <section class=" mx-auto w-full  bg-gray-100 p-3">
+        <div class="w-full mx-auto text-center">
+            <h2 class="text-yellow-500 font-bold text-2xl ">__Our Highlights__</h2>
+        </div>
+  <div class="p-4 my-5 w-full mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5">
+<div class="shadow-md w-50 p-3 text-center flex flex-col items-center sm:w-50 md:w-60 lg:w-70">
+            <div class="w-20 h-20 p-4 bg-yellow-500 rounded-full flex justify-center items-center text-5xl">
+                <i class="fa-solid fa-mug-saucer"></i>
+            </div>
+            <h1 class="font-bold text-xl md:text-2xl">Premium Coffee</h1>
+        </div>
+
+    <div class="shadow-md w-50 p-3 text-center flex flex-col items-center sm:w-50 md:w-60 lg:w-70">
+            <div class="w-20 h-20 p-4 bg-yellow-500 rounded-full flex justify-center items-center text-5xl">
+                 <i class="fa-solid fa-bowl-food"></i>
+            </div>
+            <h1 class="font-bold text-xl md:text-2xl">Descious Food</h1>
+        </div>
+
+  <div class="shadow-md w-50 p-3 text-center flex flex-col items-center sm:w-50 md:w-60 lg:w-70">
+            <div class="w-20 h-20 p-4 bg-yellow-500 rounded-full flex justify-center items-center text-5xl">
+                <i class="fa-solid fa-cookie-bite"></i>
+            </div>
+            <h1 class="font-bold text-xl md:text-2xl">Cookie bite</h1>
+        </div>
+
+             <div class="shadow-md w-50 p-3 text-center flex flex-col items-center sm:w-50 md:w-60 lg:w-70">
+            <div class="w-20 h-20 p-4 bg-yellow-500 rounded-full flex justify-center items-center text-5xl">
+               <i class="fa-solid fa-person-dots-from-line"></i>
+            </div>
+            <h1 class="font-bold text-xl md:text-2xl">Fast Service</h1>
+        </div>
+        </div>
+        <!-- <nav class="p-20 w-full mx-auto grid grid-cols-1  md:grid-cols-2  gap-5 ">
+            <div class="border border-black w-80 p-3">
+                <div class=" w-full  flex justify-center">
+                    <img src="images/icon scissors.png" alt="">
+                </div>
+                <h1 class="font-bold text-center text-2xl">HAIRCUT & BEARD TRIM</h1>
+                <p class="text-center">Duis porta, ligula rhoncuseuismod pretium, nisi tellus eleifend odio, luctus
+                    viverra sem.</p>
+            </div>
+
+            <div class="border border-black w-80 p-3">
+                <div class=" w-full  flex justify-center">
+                    <img src="images/icon razor.png" alt="">
+                </div>
+                <h1 class="font-bold text-center text-2xl">SHAVES & HAIRCUT</h1>
+                <p class="text-center">Duis porta, ligula rhoncuseuismod pretium, nisi tellus eleifend odio, luctus
+                    viverra sem.</p>
+            </div>
+
+            <div class="border border-black w-80 p-3">
+                <div class=" w-full  flex justify-center">
+                    <img src="images/icon beard.png" alt="">
+                </div>
+                <h1 class="font-bold text-center text-2xl">FACIAL & SHAVE</h1>
+                <p class="text-center">Duis porta, ligula rhoncuseuismod pretium, nisi tellus eleifend odio, luctus
+                    viverra sem.</p>
+            </div>
+
+            <div class="border border-black w-80 p-3">
+                <div class=" w-full  flex justify-center my-5">
+                    <img src="images/icon_ ustache.png" alt="">
+                </div>
+                <h1 class="font-bold text-center text-2xl">THE BIG DAY</h1>
+                <p class="text-center">Duis porta, ligula rhoncuseuismod pretium, nisi tellus eleifend odio, luctus
+                    viverra sem.</p>
+            </div>
+            <div class="w-full my-5 ">
+                <a href="service.html"
+                    class=" rounded-sm text-black border border-yellow-600 p-3 hover:bg-yellow-600 hover:text-white">EXPLORE
+                    NOW</a>
+            </div>
+        </nav> -->
+    </section>
+</body>
+
+</html>
