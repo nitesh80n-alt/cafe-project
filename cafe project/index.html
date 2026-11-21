@@ -13,7 +13,7 @@
 </head>
 
 <body class="w-full m-0 overflow-x-hidden">
- <header class="w-full min-h-[350px] md:min-h-[550px] bg-[url(images/cafe.jpeg)] bg-no-repeat bg-cover bg-center overflow-hidden">
+ <header class="w-full min-h-[350px] md:min-h-[550px] bg-[url(images/cup.png)] bg-no-repeat bg-cover bg-center overflow-hidden">
         <nav class="bg-black/50 items-center fixed top-0 left-0 w-full z-50">
             <div class="max-w-7xl mx-auto flex flex-nowrap justify-between items-center">
                 <div class="w-[100px] md:w-[120px] lg:w-[120px] p-2 ">
@@ -23,9 +23,9 @@
                     <ul class="flex flex-nowrap justify-center gap-4 lg:gap-10 text-white text-sm lg:text-lg">
                         <li class="hover:text-yellow-600"><a href="index.html">Home</a></li>
                         <li class="hover:text-yellow-600"><a href="service.html">Services</a></li>
-                        <li class="hover:text-yellow-600"><a href="#">About Us</a></li>
-                        <li class="hover:text-yellow-600"><a href="#">Blog</a></li>
-                        <li class="hover:text-yellow-600"><a href="#">Contact Us</a></li>
+                        <li class="hover:text-yellow-600"><a href="about.html">About Us</a></li>
+                        <li class="hover:text-yellow-600"><a href="blog.html">Blog</a></li>
+                        <li class="hover:text-yellow-600"><a href="contect.html">Contact Us</a></li>
                     </ul>
                 </nav>
                 <div class="flex items-center gap-5 p-3 mr-7">
@@ -36,10 +36,10 @@
                     <div class=" border border-yellow-600 hover:bg-yellow-600 md:hidden rounded-sm ">
                         <select name="" id="" onchange="location = this.value;">
                             <option value="index.html">Home</option>
-                            <option value="service.html">Service</option>
-                            <option value="service.html">Service</option>
-                            <option value="service.html">Service</option>
-                            <option value="service.html">Service</option>
+                            <option value="service.html">Services</option>
+                            <option value="about.html">About Us</option>
+                            <option value="blog.html">Blog</option>
+                            <option value="contect.html">Contact US</option>
                         </select>
                     </div>
                 </div>
@@ -47,13 +47,13 @@
         <nav class="w-full p-3 sm:p-7  mx-auto text-center">
             <div class="  w-full sm:text-center md:text-center lg:text-start md:my-15 ">
                 <h1
-                    class="p-4 text-xl sm:text-2xl md:text-3xl mx-2 md:mx-10 font-bold text-yellow-500 whitespace-nowrap">
+                    class="text-shadow-md p-4 text-xl sm:text-2xl md:text-3xl mx-2 md:mx-10 font-bold text-yellow-500 whitespace-nowrap">
                     Welcome to__________________
                 </h1>
-                <h1 class="text-4xl sm:text-4xl md:text-6xl lg:text-8xl font-bold mx-2 md:mx-10 text-white">Good Coffee
+                <h1 class="text-shadow-md text-4xl sm:text-4xl md:text-6xl lg:text-8xl font-bold mx-2 md:mx-10 text-white">Sip & Smile
                     <br>
-                    <h2 class="text-4xl sm:text-4xl md:text-6xl lg:text-8xl font-bold mx-2 md:mx-10 text-white">Good
-                        Mood</h2>
+                   <h2 class="text-shadow-md mx-4 sm:mx-6 md:mx-10 text-3xl sm:text-4xl md:text-5xl font-bold text-white my-3">Good Coffee, Good Mood</h2>
+                   
                 </h1>
                 <p class="mx-2 md:mx-10 text-base sm:text-xl md:text-3xl text-white my-3">Start Your Day with the<br>
                     perfect cup of coffee</p>
@@ -68,6 +68,21 @@
         </nav>
 
 </header>
+
+<!-- About Us -->
+    <section class="mx-auto w-full  bg-gray-100 p-3">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-5 p-4">
+            <div class="w-full p-4 shadow-md rounded-md">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-center my-3 text-shadow-md">About Us</h1>
+                <p class="text-lg sm:text-xl md:text-2xl my-3 ">Cafe Delight was born frmo a simple idea-to bring peaple together over great coffee, delicious food and a warm atmosphere.</p>
+                <p class="text-lg sm:text-xl md:text-2xl my-3">We believe in Quality, comfort and creating memorable moments.</p>
+                <button class=" hover:bg-yellow-600 bg-yellow-500 px-5 py-3 rounded-full hover:cursor-pointer font-bold text-white my-3 text-sm sm:text-base"><a href="about.html"> Learn More -></button></a>
+            </div>
+            <div class="w-full min-h-[300px] shadow-md rounded-md bg-cover bg-no-repeat bg-center bg-[url('images/night.avif')]"> 
+            </div>
+        </div>
+
+    </section>
 
     <section class=" mx-auto w-full  bg-gray-100 p-3">
         <div class="w-full mx-auto text-center">
@@ -105,7 +120,7 @@
         </div>
     </section>
 
-    <section class="w-full  p-3 bg-cover bg-no-repeat bg-[url(images/coffe.avif)]">
+    <section class="w-full  p-3 bg-cover bg-no-repeat bg-[url(images/cs.png)]">
         <div class="p-10">
         <h1 class=" font-bold text-xl md:text-6xl text-white">Special Combo Offer</h1>
         <h2 class="leading-tight font-bold text-xl md:text-5xl text-yellow-100">Coffee + Sandwich</h2>
@@ -115,6 +130,7 @@
                     Order Now → </button>
     </section>
 
+    <!-- menu -->
     <section class="w-full bg-gray-100">
         <div class=" p-4  mx-auto w-full grid grid-cols-2 items-center justify-between ">
             <div class="">
@@ -136,7 +152,7 @@
                 </div>
                 <div class="">
                     <h1 class="font-bold text-xl md:text-2xl">Descious Food</h1>
-                    <h2 class=" text-xl md:text-1xl">$4.99</h2>
+                    <h2 class=" text-xl md:text-1xl">Rs. 4.99</h2>
                     <button class="hover:bg-yellow-600 bg-yellow-500 px-3 py-2 rounded-md hover:cursor-pointer font-bold text-white my-3 text-sm sm:text-base"><a href="about.html"> Order Now</button></a>
                 </div>
             </div>
@@ -150,7 +166,7 @@
                 </div>
                 <div class="">
                     <h1 class="font-bold text-xl md:text-2xl">Pizza</h1>
-                    <h2 class=" text-xl md:text-1xl">$7.99</h2>
+                    <h2 class=" text-xl md:text-1xl">Rs. 7.99</h2>
                      <button class="hover:bg-yellow-600  bg-yellow-500 px-3 py-2 rounded-md hover:cursor-pointer font-bold text-white my-3 text-sm sm:text-base"><a href="about.html"> Order Now </button></a>
                 </div>
             </div>
@@ -163,7 +179,7 @@
                 </div>
                 <div class="">
                     <h1 class="font-bold text-xl md:text-2xl">Burger</h1>
-                    <h2 class=" text-xl md:text-1xl">$6.99</h2>
+                    <h2 class=" text-xl md:text-1xl">Rs. 6.99</h2>
                  <button class="hover:bg-yellow-600  bg-yellow-500 px-3 py-2 rounded-md hover:cursor-pointer font-bold text-white my-3 text-sm sm:text-base"><a href="about.html"> Order Now</button></a>
                 </div>
             </div>
@@ -177,13 +193,14 @@
                 </div>
                 <div class="">
                     <h1 class="font-bold  text-2xl">Cold Coffee</h1>
-                    <h2 class=" texl-xl md:text-1xl">$4.99</h2>
+                    <h2 class=" texl-xl md:text-1xl">Rs. 4.99</h2>
                     <button class="hover:bg-yellow-600  bg-yellow-500 px-3 py-2 rounded-md hover:cursor-pointer font-bold text-white my-3 text-sm sm:text-base"><a href="about.html"> Order Now </button></a>
                 </div>
             </div>
         </div>
     </section>
 
+<!-- Our Values --> 
      <section class=" mx-auto w-full  bg-gray-100 p-3">
         <div class="w-full mx-auto text-center">
             <h2 class=" text-yellow-500 text-4xl text-shadow-sm font-semibold">__Our Values__</h2>
@@ -217,21 +234,7 @@
                 <h1 class="font-bold text-xl md:text-2xl ">Warm Ambience</h1>
             </div>
         </div>
-    </section>
-
-    <section class="mx-auto w-full  bg-gray-100 p-3">
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-5 p-4">
-            <div class="w-full p-4 shadow-md rounded-md">
-                <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-center my-3 text-shadow-md">About Us</h1>
-                <p class="text-lg sm:text-xl md:text-2xl my-3 ">Cafe Delight was born frmo a simple idea-to bring peaple together over great coffee, delicious food and a warm atmosphere.</p>
-                <p class="text-lg sm:text-xl md:text-2xl my-3">We believe in Quality, comfort and creating memorable moments.</p>
-                <button class=" hover:bg-yellow-600 bg-yellow-500 px-5 py-3 rounded-full hover:cursor-pointer font-bold text-white my-3 text-sm sm:text-base"><a href="about.html"> Learn More -></button></a>
-            </div>
-            <div class="w-full min-h-[300px] shadow-md rounded-md bg-cover bg-no-repeat bg-center bg-[url('images/night.avif')]"> 
-            </div>
-        </div>
-
-    </section>
+    </section> 
 
 <!-- Reviews -->
   <section class="w-full bg-gray-100 ">

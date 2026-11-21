@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body class="w-full m-0 overflow-x-hidden">
+ <header class="w-full min-h-[350px] md:min-h-[550px] bg-[url(images/cup.png)] bg-no-repeat bg-cover bg-center overflow-hidden">
+        <nav class="bg-black/50 items-center fixed top-0 left-0 w-full z-50">
+            <div class="max-w-7xl mx-auto flex flex-nowrap justify-between items-center">
+                <div class="w-[100px] md:w-[120px] lg:w-[120px] p-2 ">
+                    <img src="images/lc.png" alt="">
+                </div>
+                <nav class="hidden md:block">
+                    <ul class="flex flex-nowrap justify-center gap-4 lg:gap-10 text-white text-sm lg:text-lg">
+                        <li class="hover:text-yellow-600"><a href="index.html">Home</a></li>
+                        <li class="hover:text-yellow-600"><a href="service.html">Services</a></li>
+                        <li class="hover:text-yellow-600"><a href="about.html">About Us</a></li>
+                        <li class="hover:text-yellow-600"><a href="blog.html">Blog</a></li>
+                        <li class="hover:text-yellow-600"><a href="contect.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="flex items-center gap-5 p-3 mr-7">
+
+                    <button
+                        class="border border-yellow-600 hover:bg-yellow-600 text-white rounded-sm  text-white font-bold p-3 hover:cursor-pointer text-xs sm:text-sm md:text-base hidden md:block">
+                        <i class="fa-regular fa-calendar"></i> BOOK NOW</button>
+                    <div class=" border border-yellow-600 hover:bg-yellow-600 md:hidden rounded-sm ">
+                        <select name="" id="" onchange="location = this.value;">
+                            <option value="index.html">Home</option>
+                            <option value="service.html">Services</option>
+                            <option value="about.html">About Us</option>
+                            <option value="blog.html">Blog</option>
+                            <option value="contect.html">Contact US</option>
+                        </select>
+                    </div>
+                </div>
+        </nav>
+        <nav class="w-full p-3 sm:p-7  mx-auto text-center">
+            <div class="  w-full sm:text-center md:text-center lg:text-start md:my-15 ">
+                <h1
+                    class="text-shadow-md p-4 text-xl sm:text-2xl md:text-3xl mx-2 md:mx-10 font-bold text-yellow-500 whitespace-nowrap">
+                    Welcome to__________________
+                </h1>
+                <h1 class="text-shadow-md text-4xl sm:text-4xl md:text-6xl lg:text-8xl font-bold mx-2 md:mx-10 text-white">Sip & Smile
+                    <br>
+                   <h2 class="text-shadow-md mx-4 sm:mx-6 md:mx-10 text-3xl sm:text-4xl md:text-5xl font-bold text-white my-3">Good Coffee, Good Mood</h2>
+                   
+                </h1>
+                <p class="mx-2 md:mx-10 text-base sm:text-xl md:text-3xl text-white my-3">Start Your Day with the<br>
+                    perfect cup of coffee</p>
+                <button
+                    class="bg-yellow-500 px-5 py-3 rounded-full mx-4 md:mx-8 font-bold text-white my-3 text-sm sm:text-base">
+                    Book Now → </button>
+                <button
+                    class="bg-black/40 px-5 py-3 rounded-full font-bold text-white my-3 hover:cursor-pointer hover:bg-white hover:text-black text-sm sm:text-base transition duration-300">
+                     <i class="fa-regular fa-circle-play"></i> Watch Video </button>
+
+            </div>
+        </nav>
+
+</header>
+    
+</body>
+</html>
