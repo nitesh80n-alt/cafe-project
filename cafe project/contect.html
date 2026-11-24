@@ -13,14 +13,16 @@
 </head>
 
 <body class="w-full m-0 overflow-x-hidden">
-<header class="max-w-7xl mx-auto min-h-[220px] md:min-h-[500px] bg-[url(images/contect.png)] bg-no-repeat bg-cover bg-center overflow-hidden"> 
-      <nav class="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl bg-black/50 z-50">
+    <header
+        class="max-w-7xl mx-auto min-h-[220px] md:min-h-[500px] bg-[url(images/contect.png)] bg-no-repeat bg-cover bg-center overflow-hidden">
+        <nav class="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl bg-black/50 z-50">
             <div class="max-w-7xl mx-auto flex flex-nowrap justify-between items-center">
                 <div class="w-[80px] md:w-[120px] lg:w-[120px] p-2">
-    <img src="images/lc.png" alt="">
-</div>
+                    <img src="images/lc.png" alt="">
+                </div>
                 <nav class="hidden md:block">
-                    <ul class="flex flex-nowrap justify-center gap-4 lg:gap-10 font-semibold text-white text-sm lg:text-lg">
+                    <ul
+                        class="flex flex-nowrap justify-center gap-4 lg:gap-10 font-semibold text-white text-sm lg:text-lg">
                         <li class="hover:text-yellow-600"><a href="index.html">HOME</a></li>
                         <li class="hover:text-yellow-600"><a href="service.html">SERVICES</a></li>
                         <li class="hover:text-yellow-600"><a href="about.html">ABOUT US</a></li>
@@ -33,15 +35,9 @@
                     <button
                         class="border border-yellow-600 hover:bg-yellow-600 text-white rounded-sm  text-white font-bold p-3 hover:cursor-pointer text-xs sm:text-sm md:text-base hidden md:block">
                         <i class="fa-regular fa-calendar"></i> BOOK NOW</button>
-                    <!-- <div class=" border border-yellow-600 hover:bg-yellow-600 md:hidden rounded-sm ">
-                        <select name="" id="" onchange="location = this.value;">
-                            <option value="index.html">Home</option>
-                            <option value="service.html">Services</option>
-                            <option value="about.html">About Us</option>
-                            <option value="blog.html">Blog</option>
-                            <option value="contect.html">Contact US</option>
-                        </select>
-                    </div> -->
+                    <div class=" hover:text-yellow-600 text-yellow-500 text-2xl md:hidden  ">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
                 </div>
         </nav>
         <nav class="w-full p-3 sm:p-7  mx-auto text-center">
@@ -67,6 +63,51 @@
     <section class="mx-auto p-3 bg-gray-100 max-w-7xl mx-auto ">
 
         <div class="  p-4  w-full mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
+         <div
+                class="rounded-md w-full shadow-md bg-gray-100 p-4 bg-cover bg-no-repeat  bg-[url(images/address.jpg)]">
+                <h1 class="font-bold text-3xl md:text-4xl p-3 text-shadow-md text-white">
+                    Our Address
+                </h1>
+                <div class=" p-4 grid grid-cols-2 gap-5 mt-auto ">
+                    <div class="flex flex-col rounded-md w-full  items-center bg-gray-100 p-3 text-shadow-sm">
+
+                        <h1 class=" text-lg md:text-3xl font-semibold text-center text-yellow-800">Location</h1>
+                        <i class="fa-solid fa-location-dot text-xl my-2"></i>
+                        <p class="text-xl text-black text-center">
+                            Jaipur, Rajasthan,<br>
+                            India - 302001
+                        </p>
+                    </div>
+
+                     <div class="flex flex-col rounded-md w-full items-center bg-gray-100 p-3 text-shadow-sm">
+                        <h1 class=" text-xl md:text-3xl font-semibold text-center  text-yellow-800 my-3">Phone Number</h1>
+                     <i class="fa-solid fa-phone"></i>
+                        <p class="text-xl text-black text-center">
+                        +91 8739903806   
+                        </p>
+                    </div>
+                </div>
+                <div class="my-3">
+                <div class="flex flex-col rounded-md w-full gap-2 items-center bg-gray-100 p-3 text-shadow-sm">
+                        <h1 class="text-xl  md:text-3xl font-semibold text-center text-yellow-800">Email</h1>
+                        <i class="fa-solid fa-envelope"></i>
+                        <p class="text-xl text-black text-center">
+                           Sip&Smile@gamil.com
+                        </p>
+                    </div>
+                    </div>
+                <div class="p-5 ">
+                    <h1 class="text-white font-bold mr-25 text-xl md:text-4xl text-shadow-sm">Follow Us</h1>
+                    <div class="text-yellow-500 text-3xl flex gap-4 my-2 text-shadow-sm p-3">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+
+
             <div class="w-full shadow-md bg-gray-100 p-4 ">
                 <h1 class="font-bold text-3xl md:text-4xl p-3 text-shadow-md">
                     Send Us a Message
@@ -94,67 +135,34 @@
                         class="w-full border border-black font-bold p-2 rounded-sm text-lg my-2"></textarea>
                 </div>
                 <div class="text-center p-4">
-                    <button class="hover:bg-yellow-600 bg-yellow-500 text-white font-bold px-6 py-3 rounded-lg my-2 hover:cursor-pointer">
+                    <button
+                        class="hover:bg-yellow-600 bg-yellow-500 text-white font-bold px-6 py-3 rounded-lg my-2 hover:cursor-pointer">
                         Send Message
                     </button>
                 </div>
             </div>
-
-         <div class="w-full shadow-md bg-gray-100 p-4 ">
-                <h1 class="font-bold text-3xl md:text-4xl p-3 text-shadow-md">
-                    Our Address
-                </h1>
-                  <div class="font-bold text-white p-4 ">
-                    <div class="flex text-4xl text-yellow-800  items-center gap-5 p-3 text-shadow-sm ">
-                          <i class="fa-solid fa-location-dot"></i>
-                        <p class="leading-8 text-yellow-800 text-2xl p-4 ">
-                            Sip & Smile<br>
-                            Jaipur, Rajasthan,<br>
-                            India - 302001
-                        </p>
-                        </div>
-
-                           <div class="flex text-4xl text-yellow-800  items-center gap-5 p-3 text-shadow-sm ">
-                       <i class="fa-solid fa-phone"></i>
-                        <p class="leading-8 text-yellow-800 text-2xl p-4 ">
-                        +91 87399-03806
-                        </p>
-                        </div>
-                       <div class="flex text-4xl text-yellow-800  items-center gap-5 p-3 text-shadow-sm ">
-                     <i class="fa-solid fa-envelope"></i>
-                        <p class="leading-8 text-yellow-800 text-2xl p-4 ">
-                            Info@Sip&Smile.in
-                        </p>
-                        </div>
-                    </div>
-                    <div class="p-5 ">
-                <h1 class="text-black font-bold mr-25 text-4xl text-shadow-sm">Follow Us</h1>
-                <div  class="text-yellow-800 text-3xl flex gap-4 my-2 text-shadow-sm p-3">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i> 
-                <i class="fa-brands fa-youtube"></i>
-               <i class="fa-brands fa-whatsapp"></i>
-               </div>
-            </div>
-         </div>
         </div>
         <div class="w-full h-full rounded-sm shadow-md my-5">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86371.31642802541!2d75.6430420219248!3d26.9195366025356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db500714cb79d%3A0x4b3aeffe45bd4e94!2sSip%20%26%20Steam!5e0!3m2!1sen!2sin!4v1795357834570!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" class="w-full rounded-sm "></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86371.31642802541!2d75.6430420219248!3d26.9195366025356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db500714cb79d%3A0x4b3aeffe45bd4e94!2sSip%20%26%20Steam!5e0!3m2!1sen!2sin!4v1795357834570!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin" class="w-full rounded-sm "></iframe>
 
         </div>
     </section>
 
     <!-- Visit Our Cafe -->
-       <section class="max-w-7xl mx-auto  p-3 bg-cover bg-no-repeat bg-[url(images/about.png)] rounded-md">
+    <section class="max-w-7xl mx-auto  p-3 bg-cover bg-no-repeat bg-[url(images/about.png)] rounded-md">
         <div class="p-10">
-        <h1 class=" font-bold text-xl md:text-6xl text-white">Visit Our Cafe' </h1>
-        <h3 class=" text-2xl md:text-4xl text-yellow-100">We are open daily <br> from 8AM to 11PM. </h3>
+            <h1 class=" font-bold text-xl md:text-6xl text-white">Visit Our Cafe' </h1>
+            <h3 class=" text-2xl md:text-4xl text-yellow-100">We are open daily <br> from 8AM to 11PM. </h3>
         </div>
-         <button class="hover:cursor-pointer hover:bg-yellow-600 bg-yellow-500 px-5 py-3 rounded-full mx-4 md:mx-8 font-bold text-white  text-sm sm:text-base">
-                   Get Directions → </button>
+        <button
+            class="hover:cursor-pointer hover:bg-yellow-600 bg-yellow-500 px-5 py-3 rounded-full mx-4 md:mx-8 font-bold text-white  text-sm sm:text-base">
+            Get Directions → </button>
     </section>
 
-     <!-- footer -->
+    <!-- footer -->
     <footer class="max-w-7xl mx-auto my-2 mx-auto p-4 bg-cover bg-no-repeat bg-[url(images/footer.jpeg)]">
         <div class="w-full p-4 grid grid-cols-1 md:grid-cols-4 gap-10">
             <div class="  w-70 text-center md:w-50">
@@ -165,7 +173,7 @@
             </div>
             <div class="font-bold text-white p-4">
                 <h1 class="font-bold text-yellow-600 text-2xl">Quick Links</h1>
-                <ul>
+                <ul class="leading-8">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="service.html">Service</a></li>
                     <li><a href="about.html">About Us</a></li>
@@ -174,32 +182,31 @@
                 </ul>
             </div>
 
-                <div class="font-bold text-white p-4">
-                        <h2 class=" text-2xl  font-bold text-yellow-600">
-                            Our Store
-                        </h2>
+            <div class="font-bold text-white p-4 ">
+                <h2 class=" text-2xl  font-bold text-yellow-600">
+                    Our Store
+                </h2>
 
-                        <p class="leading-8">
-                            Jaipur, Rajasthan,<br>
-                            India - 302001
-                        </p>
+                <p class="leading-8">
+                    Jaipur, Rajasthan,<br>
+                    India - 302001
+                </p>
 
-                        <p class="mt-3  ">
-                            <i class="fa-regular fa-envelope gap-5 text-[yellow] font-bold "></i> info@Sip & Smile.com
-                        </p>
-                        <p
-                         class="mt-3 ">
-                            <i class="fa-solid fa-tty text-[yellow]"></i> +91-8739903806
-                        </p>
-                    </div>
+                <p class="mt-3  ">
+                    <i class="fa-regular fa-envelope gap-5 text-[yellow] font-bold "></i> info@Sip & Smile.com
+                </p>
+                <p class="mt-3 ">
+                    <i class="fa-solid fa-tty text-[yellow]"></i> +91-8739903806
+                </p>
+            </div>
             <div class="p-5">
                 <h1 class="text-yellow-600 font-bold mr-25 text-xl">Follow Us</h1>
-                <div  class="text-white text-2xl my-2 ">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-instagram"></i> 
-                <i class="fa-brands fa-youtube"></i>
-               <i class="fa-brands fa-whatsapp"></i>
-               </div>
+                <div class="text-white ext-xl lg:text-2xl my-2 ">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
             </div>
 
         </div>
